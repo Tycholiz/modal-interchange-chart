@@ -4,3 +4,20 @@
 	height: 100px;
 	width: 100px;
 }
+
+input {
+	position: absolute;
+  left: -1000px;
+}
+
+label.label {
+	display: inline-block;
+	background-color: orange;
+	height: 100%;
+	width: 100%;
+}
+
+input:checked + label.label {
+	background: black;
+	color: whitesmoke;
+}

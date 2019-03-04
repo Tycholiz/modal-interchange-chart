@@ -5,7 +5,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="chartWrapper">
-				<h1>CHART</h1>
+				<img src={require("../assets/images/modal-chart.png")} alt="modal chart"/>
 			</div>
 		);
 	}

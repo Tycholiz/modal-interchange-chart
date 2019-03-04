@@ -1,5 +1,7 @@
 .notationContainerWrapper {
-	background-color: yellow;
-	width: 20%;
-	justify-self: flex-end;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* width: 20%; */
+	background-color: red !important;
 }

@@ -16,7 +16,6 @@
 .buttonWrapper {
   display: flex;
   flex-direction: row;
-  background-color: pink;
   height: 10vw;
   width: 80vw;
 }

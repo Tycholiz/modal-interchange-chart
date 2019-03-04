@@ -8,7 +8,7 @@ class App extends Component {
 			<div className="notationContainerWrapper">
 				<Notation notationName="Degrees"/>
 				<Notation notationName="Triads"/>
-				<Notation notationName="Sevenths"/>
+				<Notation notationName="7ths"/>
 			</div>
 		);
 	}

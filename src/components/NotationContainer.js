@@ -6,9 +6,9 @@ class App extends Component {
 	render() {
 		return (
 			<div className="notationContainerWrapper">
-				<Notation />
-				<Notation />
-				<Notation />
+				<Notation notationName="Degrees"/>
+				<Notation notationName="Triads"/>
+				<Notation notationName="Sevenths"/>
 			</div>
 		);
 	}

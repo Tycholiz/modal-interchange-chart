@@ -5,7 +5,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="notationWrapper">
-				<h1>NOTATION</h1>
+				<h1>{this.props.notationName}</h1>
 			</div>
 		);
 	}

@@ -1,0 +1,7 @@
+.keyContainerWrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: orange;
+  width: 80%;
+}

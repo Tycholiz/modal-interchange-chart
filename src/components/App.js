@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
+import KeyContainer from './KeyContainer';
+import NotationContainer from './NotationContainer';
+import Chart from './Chart';
 import '../styles/App.css';
 
 class App extends Component {
@@ -7,8 +9,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-
+          <h1>Modal Chart</h1>
         </header>
+        <div className="buttonWrapper">
+          <KeyContainer />
+          <NotationContainer />
+        </div>
+        <Chart />
       </div>
     );
   }

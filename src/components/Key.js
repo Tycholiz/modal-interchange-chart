@@ -5,8 +5,8 @@ class App extends Component {
 	render() {
 		return (
 			<div className="keyWrapper">
-				<input type="radio" id="huey" name="drone" value={this.props.keyName} checked />
-				<label for="huey">{this.props.keyName}</label>
+				<input type="radio" id={this.props.keyName} name="drone" value={this.props.keyName} />
+				<label htmlFor={this.props.keyName}>{this.props.keyName}</label>
 			</div>
 		);
 	}

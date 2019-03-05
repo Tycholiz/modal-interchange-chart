@@ -16,9 +16,14 @@ class App extends Component {
   }
 
   changeKey = (nextKey) => {
-    console.log(nextKey)
     this.setState({
       selectedKey: nextKey
+    })
+  }
+
+  changeNotation = (nextNotation) => {
+    this.setState({
+      selectedNotation: nextNotation
     })
   }
 
@@ -34,6 +39,7 @@ class App extends Component {
             changeKey={this.changeKey}
           />
           <NotationContainer
+            changeNotation={this.changeNotation}
           />
         </div>
         <Chart

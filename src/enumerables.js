@@ -1,15 +1,15 @@
 export const Key = {
 	C: "C",
-	Db: "Db",
+	Db: "C#/Db",
 	D: "D",
-	Eb: "Eb",
+	Eb: "D#/Eb",
 	E:"E",
 	F: "F",
+	Gb: "F#/Gb",
 	G: "G",
-	Gb: "Gb",
-	Ab: "Ab",
+	Ab: "G#/Ab",
 	A: "A",
-	Bb: "Bb",
+	Bb: "A#/Bb",
 	B: "B",
 }
 

@@ -9,10 +9,11 @@ class App extends Component {
 		}
 	}
 
-	setKeyState = () => {
-		const currentKey = document.getElementById(this.props.keyName).value
-		console.log(currentKey)
-	}
+	// setKeyState = () => {
+	// 	const currentKey = document.getElementById(this.props.keyValue).value
+	// 	console.log(currentKey)
+	// }
+	// nextKey = document.getElementById(this.props.keyValue).value
 	render() {
 
 		return (
@@ -20,15 +21,16 @@ class App extends Component {
 				<input
 					type="radio"
 					id={this.props.keyName}
-					name="key" value={this.props.keyName}
+					name="key"
+					value={this.props.keyName}
 					defaultChecked={this.props.isChecked ? true : false}
-					onChange={() => this.setKeyState()}
+					onChange={() => this.props.changeKey(document.getElementById(this.props.keyName).id)}
 				/>
 				<label
 					htmlFor={this.props.keyName}
 					className="keyLabel"
 				>
-					{this.props.keyName}
+					{this.props.keyValue}
 				</label>
 			</div>
 		);

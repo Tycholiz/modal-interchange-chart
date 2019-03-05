@@ -9,10 +9,18 @@ class App extends Component {
 		}
 	}
 	render() {
+		const { currentKey, currentNotation } = this.props;
 		return (
 			<div className="chartWrapper">
-				<img src={require("../assets/images/modal-chart.png")} alt="modal chart"/>
-				<img src={require("../assets/images/c-triads.png")} alt="overlay image" className="overlayImage"/>
+				<img
+					src={require("../assets/images/modal-chart.png")}
+					alt="modal chart"
+				/>
+				<img
+					src={require(`../assets/images/${currentKey}-${currentNotation}.png`)}
+					alt="overlay"
+					className="overlayImage"
+				/>
 			</div>
 		);
 	}

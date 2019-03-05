@@ -4,18 +4,26 @@ import NotationContainer from './NotationContainer';
 import Chart from './Chart';
 import '../styles/App.css';
 
+import { Key, Notation } from '../enumerables'
+
 class App extends Component {
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Modal Chart</h1>
+          <h1>Interactive Modal Chart</h1>
         </header>
         <div className="buttonWrapper">
-          <KeyContainer />
-          <NotationContainer />
+          <KeyContainer
+          />
+          <NotationContainer
+          />
         </div>
-        <Chart />
+        <Chart
+          currentKey={Key.Db}
+          currentNotation={Notation.Sevenths}
+        />
       </div>
     );
   }

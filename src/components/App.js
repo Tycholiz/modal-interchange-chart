@@ -20,7 +20,6 @@ class App extends Component {
     this.setState({
       selectedKey: nextKey
     })
-    // TODO: Need to set a dictionary that will match Db to C#/Db. right now nextKey = C#/Db, but it needs to equal just Db
   }
 
   render() {

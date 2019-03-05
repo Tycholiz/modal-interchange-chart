@@ -10,14 +10,14 @@ input {
   left: -1000px;
 }
 
-label.label {
+label.keyLabel {
 	display: inline-block;
 	background-color: orange;
 	height: 100%;
 	width: 100%;
 }
 
-input:checked + label.label {
+input:checked + label.keyLabel {
 	background: black;
 	color: whitesmoke;
 }

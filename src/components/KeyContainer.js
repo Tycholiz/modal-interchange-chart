@@ -6,7 +6,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="keyContainerWrapper">
-				<Key keyName="C"/>
+				<Key keyName="C" isChecked={true}/>
 				<Key keyName="C#/Db"/>
 				<Key keyName="D"/>
 				<Key keyName="D#/Eb"/>

@@ -1,6 +1,14 @@
 .chartWrapper {
+	position: relative;
+	display: inline;
 }
 
 img {
 	width: 80vw;
+}
+
+.overlayImage {
+	position: absolute;
+	bottom: 3px;
+	right: 0;
 }

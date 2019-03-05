@@ -5,7 +5,8 @@ class App extends Component {
 	render() {
 		return (
 			<div className="notationWrapper">
-				<h1>{this.props.notationName}</h1>
+				<input type="radio" id={this.props.notationName} name="notation" value={this.props.notationName} />
+				<label htmlFor={this.props.notationName} className="notationLabel">{this.props.notationName}</label>
 			</div>
 		);
 	}

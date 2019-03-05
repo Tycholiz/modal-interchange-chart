@@ -3,3 +3,15 @@
 	/* width: 100%; */
 
 }
+
+label.notationLabel {
+	display: inline-block;
+	background-color: orange;
+	height: 100%;
+	width: 100%;
+}
+
+input:checked + label.notationLabel {
+	background: black;
+	color: whitesmoke;
+}

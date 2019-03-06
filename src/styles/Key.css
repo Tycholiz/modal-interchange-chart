@@ -12,7 +12,6 @@ input {
 
 label.keyLabel {
 	display: inline-block;
-	background-color: orange;
 	height: 100%;
 	width: 100%;
 }

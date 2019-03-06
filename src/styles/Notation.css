@@ -1,12 +1,10 @@
 .notationWrapper {
-	background-color: blue;
 	/* width: 100%; */
 
 }
 
 label.notationLabel {
 	display: inline-block;
-	background-color: orange;
 	height: 100%;
 	width: 100%;
 }

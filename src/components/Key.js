@@ -2,20 +2,7 @@ import React, { Component } from 'react';
 import '../styles/Key.css';
 
 class App extends Component {
-	constructor(props) {
-		super(props)
-		this.state = {
-			selectedKey: 'wq'
-		}
-	}
-
-	// setKeyState = () => {
-	// 	const currentKey = document.getElementById(this.props.keyValue).value
-	// 	console.log(currentKey)
-	// }
-	// nextKey = document.getElementById(this.props.keyValue).value
 	render() {
-
 		return (
 			<div className="keyWrapper">
 				<input

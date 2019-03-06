@@ -32,12 +32,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+         {/* interactive chart of modes */}
           <h1>Interactive Modal Chart</h1>
         </header>
         <div className="buttonWrapper">
           <KeyContainer
             changeKey={this.changeKey}
-          />
+            />
           <NotationContainer
             changeNotation={this.changeNotation}
           />

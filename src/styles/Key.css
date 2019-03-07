@@ -1,17 +1,10 @@
+
 .keyWrapper {
-	/* position: relative; */
-	background-color: tomato;
-	border: 1px solid black;
-	height: 30px;
-	min-width: 66px;
 	margin-left: .2em;
 	margin-right: .2em;
-  display: inline-block;
-  cursor: pointer;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 25px;
-  user-select: none;
+	height: 30px;
+	min-width: 66px;
+
 }
 label.keyLabel {
 	/* position: absolute; */

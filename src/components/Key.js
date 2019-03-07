@@ -4,7 +4,7 @@ import '../styles/Key.css';
 class App extends Component {
 	render() {
 		return (
-			<div className="keyWrapper">
+			<div className="keyWrapper selection">
 				<input
 					type="radio"
 					id={this.props.keyName}

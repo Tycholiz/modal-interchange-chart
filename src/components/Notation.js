@@ -4,12 +4,13 @@ import '../styles/Notation.css';
 class App extends Component {
 	render() {
 		return (
-			<div className="notationWrapper">
+			<div className="notationWrapper selection">
 				<input
 					type="radio"
 					id={this.props.notationName}
 					name="notation"
 					value={this.props.notationName}
+					defaultChecked={this.props.isChecked ? true : false}
 					onChange={() => this.props.changeNotation(document.getElementById(this.props.notationName).value)}
 				/>
 				<label

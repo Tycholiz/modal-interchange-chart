@@ -7,15 +7,22 @@
   text-align: center;
   background-color: #282c34;
 }
-
 .App-header {
   color: white;
   font-size: calc(10px + 2vmin);
 }
-
 .buttonWrapper {
   display: flex;
   flex-direction: row;
   height: 10vw;
   width: 80vw;
+}
+.selection {
+	background-color: tomato;
+	border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  user-select: none;
 }

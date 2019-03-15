@@ -1,3 +1,18 @@
+@media only screen and (min-device-width: 480px)
+                   and (max-device-width: 640px)
+                   and (orientation: landscape) {
+  .chartWrapper {
+    position: relative;
+  }
+  .chartWrapper img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100vw;
+  }
+}
+
 .App {
   display: flex;
   flex-direction: column;

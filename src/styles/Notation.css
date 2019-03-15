@@ -10,6 +10,7 @@ label.notationLabel {
 }
 
 input:checked + label.notationLabel {
-	background: black;
+	background: red;
 	color: whitesmoke;
+	border-radius: 25px;
 }

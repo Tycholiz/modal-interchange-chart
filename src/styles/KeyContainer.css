@@ -8,5 +8,11 @@
 	justify-content: center;
 }
 .sharpFlatContainer {
-
+	display: flex;
+	flex-direction: row;
+}
+@media only screen and (min-device-width: 878px) {
+	.sharpFlatContainer {
+		flex-direction: column;
+	}
 }

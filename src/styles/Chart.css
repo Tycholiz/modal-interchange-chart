@@ -1,6 +1,7 @@
 .chartWrapper {
 	position: relative;
 	display: inline;
+	padding-top: 3vh;
 }
 
 img {

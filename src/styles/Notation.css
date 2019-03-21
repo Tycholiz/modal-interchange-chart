@@ -1,12 +1,14 @@
 .notationWrapper {
 	margin: .2em;
-	min-width: 100px;
+	width: 8vw;
+	min-width: 4em;
 }
 
 label.notationLabel {
 	display: inline-block;
 	height: 100%;
 	width: 100%;
+	cursor: pointer;
 }
 
 input:checked + label.notationLabel {

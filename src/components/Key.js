@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Key.css';
 
-class App extends Component {
+class Key extends Component {
 	render() {
 		return (
 			<div className="keyWrapper selection">
@@ -17,11 +17,11 @@ class App extends Component {
 					htmlFor={this.props.keyName}
 					className="keyLabel"
 				>
-					{this.props.keyValue}
+					{this.props.keyName}
 				</label>
 			</div>
 		);
 	}
 }
 
-export default App;
+export default Key;

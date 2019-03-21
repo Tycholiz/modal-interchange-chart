@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Notation from './Notation';
 import '../styles/Notation.css';
 
-class App extends Component {
+class NotationContainer extends Component {
 	render() {
 		return (
 			<div className="notationContainerWrapper">
@@ -13,4 +13,4 @@ class App extends Component {
 	}
 }
 
-export default App;
+export default NotationContainer;

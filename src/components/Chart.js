@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Chart.css';
 
-class App extends Component {
-	constructor(props) {
-		super(props)
-		this.state = {
-			selectedKey: 'sd'
-		}
-	}
+class Chart extends Component {
 	render() {
 		const { currentKey, currentNotation } = this.props;
 		return (
@@ -26,4 +20,4 @@ x					src={require(`../assets/images/${currentKey}-${currentNotation}.png`)}
 	}
 }
 
-export default App;
+export default Chart;

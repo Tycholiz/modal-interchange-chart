@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Notation.css';
 
-class App extends Component {
+class Notation extends Component {
 	render() {
 		return (
 			<div className="notationWrapper selection">
@@ -24,4 +24,4 @@ class App extends Component {
 	}
 }
 
-export default App;
+export default Notation;

@@ -39,3 +39,6 @@
   border-radius: 25px;
   user-select: none;
 }
+.App-header h1 {
+  margin-bottom: 0.1em;
+}

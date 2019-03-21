@@ -17,7 +17,7 @@ class Key extends Component {
 					htmlFor={this.props.keyName}
 					className="keyLabel"
 				>
-					{this.props.keyName}
+					{this.props.keyValue}
 				</label>
 			</div>
 		);

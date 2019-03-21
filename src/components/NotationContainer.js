@@ -8,7 +8,6 @@ class App extends Component {
 			<div className="notationContainerWrapper">
 				<Notation notationName="Triads" changeNotation={this.props.changeNotation} isChecked={true}/>
 				<Notation notationName="7ths" changeNotation={this.props.changeNotation}/>
-				<Notation notationName="Degrees" changeNotation={this.props.changeNotation}/>
 			</div>
 		);
 	}

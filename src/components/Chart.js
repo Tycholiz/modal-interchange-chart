@@ -17,7 +17,7 @@ class App extends Component {
 					alt="modal chart"
 				/>
 				<img
-					src={require(`../assets/images/${currentKey}-${currentNotation}.png`)}
+x					src={require(`../assets/images/${currentKey}-${currentNotation}.png`)}
 					alt="overlay"
 					className="overlayImage"
 				/>

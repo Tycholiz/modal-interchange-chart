@@ -36,18 +36,18 @@ class App extends Component {
          {/* interactive chart of modes */}
           <h1>Interactive Modal Chart</h1>
         </header>
+        <NotationContainer
+          changeNotation={this.changeNotation}
+        />
         <div className="buttonWrapper">
           <KeyContainer
             changeKey={this.changeKey}
           />
-          <NotationContainer
-            changeNotation={this.changeNotation}
+          <Chart
+            currentKey={selectedKey}
+            currentNotation={selectedNotation}
           />
         </div>
-        <Chart
-          currentKey={selectedKey}
-          currentNotation={selectedNotation}
-        />
       </div>
     );
   }

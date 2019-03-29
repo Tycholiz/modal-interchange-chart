@@ -1,6 +1,6 @@
 .notationContainerWrapper {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	margin-left: 1em;
 	margin-right: 1em;

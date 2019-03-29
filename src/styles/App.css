@@ -27,7 +27,7 @@
 .buttonWrapper {
   display: flex;
   flex-direction: row;
-  height: 10vw;
+  /* height: 10vw; */
   width: 80vw;
 }
 .selection {

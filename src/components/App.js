@@ -29,6 +29,7 @@ class App extends Component {
 
   render() {
     const { selectedKey, selectedNotation } = this.state;
+
     return (
       <div className="App">
         <header className="App-header">
@@ -38,7 +39,7 @@ class App extends Component {
         <div className="buttonWrapper">
           <KeyContainer
             changeKey={this.changeKey}
-            />
+          />
           <NotationContainer
             changeNotation={this.changeNotation}
           />

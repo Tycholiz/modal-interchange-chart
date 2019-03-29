@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Notation from './Notation';
-import '../styles/Notation.css';
+import '../styles/NotationContainer.css';
 
 class NotationContainer extends Component {
 	render() {

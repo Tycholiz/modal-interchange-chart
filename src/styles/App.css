@@ -21,13 +21,13 @@
   background-color: #282c34;
 }
 .App-header {
-  color: white;
+  color: whitesmoke;
+  text-shadow: 6px 4px 4px black;
   font-size: calc(10px + 2vmin);
 }
-.buttonWrapper {
+.mainContent {
   display: flex;
   flex-direction: row;
-  /* height: 10vw; */
   width: 80vw;
 }
 .selection {

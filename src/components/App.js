@@ -39,7 +39,7 @@ class App extends Component {
         <NotationContainer
           changeNotation={this.changeNotation}
         />
-        <div className="buttonWrapper">
+        <div className="mainContent">
           <KeyContainer
             changeKey={this.changeKey}
           />

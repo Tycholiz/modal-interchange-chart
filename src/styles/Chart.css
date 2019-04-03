@@ -6,6 +6,7 @@
 
 img {
 	width: 70vw;
+	border: 2px solid dimgrey;
 }
 
 .overlayImage {

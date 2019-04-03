@@ -19,8 +19,8 @@ input {
 	position: absolute;
   left: -1000px;
 }
-@media only screen and (min-device-width: 878px) {
+/* @media only screen and (min-device-width: 878px) {
 	.keyWrapper {
 		margin-top: 5px;
 	}
-}
+} */

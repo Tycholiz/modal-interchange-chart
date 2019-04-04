@@ -11,6 +11,10 @@
   }
 } */
 
+body {
+  background-color: #282c34;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -18,7 +22,6 @@
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  background-color: #282c34;
 }
 .App-header {
   color: whitesmoke;
@@ -29,6 +32,7 @@
   display: flex;
   flex-direction: row;
   width: 80vw;
+  padding-top: 3vh;
 }
 .selection {
 	background-color: tomato;

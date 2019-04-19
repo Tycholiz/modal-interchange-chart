@@ -2,7 +2,7 @@
   "name": "modal-chart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tycholiz.github.io/interactive-modal-chart",
+  "homepage": "https://modal-interchange-chart.com",
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",

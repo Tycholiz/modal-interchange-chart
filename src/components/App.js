@@ -33,8 +33,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-         {/* interactive chart of modes */}
-          <h1>Interactive Modal Chart</h1>
+          <h1>Modal Interchange Chart</h1>
         </header>
         <NotationContainer
           changeNotation={this.changeNotation}

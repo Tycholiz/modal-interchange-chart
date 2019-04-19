@@ -1,7 +1,6 @@
 .keyWrapper {
-	margin-left: .2em;
-	margin-right: .2em;
 	min-width: 1.2em;
+	margin: .2em;
 	width: 4vw;
 }
 label.keyLabel {

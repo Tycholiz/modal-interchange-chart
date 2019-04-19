@@ -1,11 +1,11 @@
 .keyContainerWrapper {
 	display: flex;
-	flex: 1;
+	/* flex: 1; */
 	flex-wrap: wrap;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
-	justify-content: space-around;
-	margin-right: 2em;
+	justify-content: flex-start;
+	/* margin-right: 2em; */
 }
 .sharpFlatContainer {
 	display: flex;

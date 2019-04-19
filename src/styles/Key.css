@@ -1,28 +1,20 @@
 .keyWrapper {
 	margin-left: .2em;
 	margin-right: .2em;
-	background-image: radial-gradient(at 65% 25%, #00c0ff 0%, #0085b1 80%);
-	font-size: 0.9em;
-	border-radius: 50%;
-	/* height: calc(2em + 1vw);
-	width: calc(2em + 1vw); */
 }
 label.keyLabel {
+	font-size: 0.9em;
+	border-radius: 50%;
+	background-image: radial-gradient(at 65% 25%, #00c0ff 0%, #0085b1 80%);
 	display: inline-block;
-	/* width: 100%; */
 	cursor: pointer;
-	/* height: 30px; */
 	line-height: 30px;
 	color: #1d1d1d;
 	height: calc(2em + 1vw);
 	width: calc(2em + 1vw);
 }
 input:checked + label.keyLabel {
-	/* color: #cfcfcf; */
 	background-image: radial-gradient(#00c0ff 0%, #e5dede 92%);
-	border-radius: 50%;
-	height: calc(2em + 1vw);
-	width: calc(2em + 1vw);
 }
 
 input {

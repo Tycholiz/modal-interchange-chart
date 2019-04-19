@@ -1,18 +1,19 @@
 .notationWrapper {
-	margin: .2em;
-	width: 11vw;
-	min-width: 4em;
+	margin: 1em;
+	width: 140px;
+	height: 30px;
 }
 
 label.notationLabel {
+	background-image: linear-gradient(to bottom, #00c0ff 0%, #0085b1 80%);
 	display: inline-block;
-	height: 100%;
-	width: 100%;
 	cursor: pointer;
+	border-radius: 25px;
+	width: calc(6em + 4vw);
+	line-height: calc(1em + 1vw);
+	height: calc(1m + 2vw);
 }
 
 input:checked + label.notationLabel {
-	background: red;
-	color: whitesmoke;
-	border-radius: 25px;
+	background-image: radial-gradient(#00c0ff 0%, #e5dede 127%);
 }

@@ -1,18 +1,5 @@
-/* @media only screen and (max-device-width: 800px) and (orientation: landscape) {
-  .chartWrapper {
-    position: relative;
-  }
-  .chartWrapper img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    width: 100vw;
-  }
-} */
-
 body {
-  background-color: #282c34;
+  background-color: #283134;
 }
 
 .App {
@@ -44,4 +31,15 @@ body {
 
 input:focus {
   outline: none;
+}
+
+footer {
+  margin-top: 3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	background-image: linear-gradient(to bottom left, #00c0ff, #1b67da);
+	height: 40px;
+	width: 100%;
 }

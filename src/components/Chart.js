@@ -6,20 +6,92 @@ class Chart extends Component {
 		const { currentKey, currentNotation } = this.props;
 		return (
 			<div className="chartWrapper">
-				<img
-					src={require("../assets/images/modal-chart.png")}
-					alt="modal chart"
-				/>
-				<img
-					src={require(`../assets/images/overlay-${currentNotation}.png`)}
-					alt="notation overlay"
-					className="overlayImage"
-				/>
-				<img
-					src={require(`../assets/images/${currentKey}-${currentNotation}.png`)}
-					alt="overlay"
-					className="overlayImage"
-				/>
+				<table>
+					<thead>
+						<tr>
+							<th scope="col">Mode</th>
+							<th scope="col">I</th>
+							<th scope="col">II</th>
+							<th scope="col">III</th>
+							<th scope="col">IV</th>
+							<th scope="col">V</th>
+							<th scope="col">VI</th>
+							<th scope="col">VII</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Ionian</th>
+							<td>C</td>
+							<td>Dm</td>
+							<td>Em</td>
+							<td>F</td>
+							<td>G</td>
+							<td>Am</td>
+							<td>Bdim</td>
+						</tr>
+						<tr>
+							<th scope="row">Dorian</th>
+							<td>C</td>
+							<td>Dm</td>
+							<td>Em</td>
+							<td>F</td>
+							<td>G</td>
+							<td>Am</td>
+							<td>Bdim</td>
+						</tr>
+						<tr>
+							<th scope="row">Dorian</th>
+							<td>C</td>
+							<td>Dm</td>
+							<td>Em</td>
+							<td>F</td>
+							<td>G</td>
+							<td>Am</td>
+							<td>Bdim</td>
+						</tr>
+						<tr>
+							<th scope="row">Dorian</th>
+							<td>C</td>
+							<td>Dm</td>
+							<td>Em</td>
+							<td>F</td>
+							<td>G</td>
+							<td>Am</td>
+							<td>Bdim</td>
+						</tr>
+						<tr>
+							<th scope="row">Dorian</th>
+							<td>C</td>
+							<td>Dm</td>
+							<td>Em</td>
+							<td>F</td>
+							<td>G</td>
+							<td>Am</td>
+							<td>Bdim</td>
+						</tr>
+						<tr>
+							<th scope="row">Dorian</th>
+							<td>C</td>
+							<td>Dm</td>
+							<td>Em</td>
+							<td>F</td>
+							<td>G</td>
+							<td>Am</td>
+							<td>Bdim</td>
+						</tr>
+						<tr>
+							<th scope="row">Dorian</th>
+							<td>C</td>
+							<td>Dm</td>
+							<td>Em</td>
+							<td>F</td>
+							<td>G</td>
+							<td>Am</td>
+							<td>Bdim</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		);
 	}

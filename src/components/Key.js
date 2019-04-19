@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import '../styles/Key.css';
 
 class Key extends Component {
+
 	render() {
 		return (
-			<div className="keyWrapper selection">
+			<div className="selection keyWrapper">
 				<input
 					type="radio"
 					id={this.props.keyName}

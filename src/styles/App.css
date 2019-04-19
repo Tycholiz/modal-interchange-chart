@@ -35,14 +35,13 @@ body {
   padding-top: 3vh;
 }
 .selection {
-	background-color: tomato;
-	border: 1px solid black;
   cursor: pointer;
   font-weight: bold;
   text-align: center;
-  border-radius: 25px;
   user-select: none;
+  outline: none;
 }
-/* .App-header h1 {
-  margin-bottom: 0.1em;
-} */
+
+input:focus {
+  outline: none;
+}

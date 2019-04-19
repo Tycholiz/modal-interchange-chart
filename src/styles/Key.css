@@ -1,26 +1,29 @@
 .keyWrapper {
 	margin-left: .2em;
 	margin-right: .2em;
-	min-width: 1.2em;
-	width: 4vw;
+	background-image: radial-gradient(at 65% 25%, #00c0ff 0%, #0085b1 80%);
+	font-size: 0.9em;
+	border-radius: 50%;
+	height: calc(2em + 1vw);
+	width: calc(2em + 1vw);
 }
 label.keyLabel {
 	display: inline-block;
-	height: 100%;
 	width: 100%;
 	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	color: #1d1d1d;
 }
 input:checked + label.keyLabel {
-	background: red;
-	color: whitesmoke;
-	border-radius: 25px;
+	/* color: #cfcfcf; */
+	background-image: radial-gradient(#00c0ff 0%, whitesmoke 80%);
+	border-radius: 50%;
+	height: calc(2em + 1vw);
+	width: calc(2em + 1vw);
 }
+
 input {
 	position: absolute;
   left: -1000px;
 }
-/* @media only screen and (min-device-width: 878px) {
-	.keyWrapper {
-		margin-top: 5px;
-	}
-} */

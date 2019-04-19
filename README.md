@@ -32,6 +32,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn deploy`
+Ensure homepage field in package.json is set to `https://modal-interchange-chart.com`. Run `yarn deploy`, and ensure that 'custom domain' within github settings is set to `modal-interchange-chart.com`.
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**

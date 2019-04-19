@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/interactive-modal-chart/precache-manifest.405800ec5b7d144ef6c07e3a884603b5.js"
+  "/modal-interchange-chart/precache-manifest.7bf1d56e9a39a6ad4c51717cb6bcfa1a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/interactive-modal-chart/index.html", {
+workbox.routing.registerNavigationRoute("/modal-interchange-chart/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

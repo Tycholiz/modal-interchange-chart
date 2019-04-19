@@ -11,7 +11,7 @@ label.notationLabel {
 	border-radius: 25px;
 	width: calc(6em + 4vw);
 	line-height: calc(1em + 1vw);
-	height: calc(1m + 2vw);
+	height: calc(1em + 1vw);
 }
 
 input:checked + label.notationLabel {

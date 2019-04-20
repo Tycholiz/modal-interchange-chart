@@ -13,6 +13,7 @@
 
 body {
   background-color: #282c34;
+  background-image: linear-gradient(black, #283134, #00b4ff, lightblue);
 }
 
 .App {

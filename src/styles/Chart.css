@@ -1,7 +1,12 @@
 .chartWrapper {
-	position: relative;
-	display: inline;
+	display: flex;
+	flex-direction: column;
 	--primary-color: red;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
 }
 
 .cell {

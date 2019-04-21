@@ -1,11 +1,12 @@
 .chartWrapper {
-	display: relative;
-	flex-direction: column;
+	position: relative;
+	display: inline-block;
 	--primary-color: red;
+	width: 500px;
 }
 
 .overlayImage {
-	display: absolute;
+	position: absolute;
 	top: 0;
 	bottom: 0;
 	right: 0;

@@ -18,8 +18,10 @@ body {
 }
 .mainContent {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  width: 80vw;
+  /* align-self: flex-start; */
+  width: 100%;
   padding-top: 3vh;
 }
 .selection {

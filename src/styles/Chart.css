@@ -2,8 +2,9 @@
 	--primary-color: red;
 	position: relative;
 	display: inline-block;
-	width: 80vw;
+	width: 100%;
 	background-color: pink;
+	align-self: flex-start;
 }
 
 .overlayImage {

@@ -1,18 +1,11 @@
 .keyContainerWrapper {
 	display: flex;
-	/* flex: 1; */
 	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	/* margin-right: 2em; */
 }
 .sharpFlatContainer {
 	display: flex;
 	flex-direction: row;
-}
-@media only screen and (min-device-width: 878px) {
-	/* .keyContainerWrapper {
-		justify-content: center;
-	} */
 }

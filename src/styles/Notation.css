@@ -1,8 +1,12 @@
 .notationWrapper {
-	margin: 1em;
 	width: 140px;
 	height: 30px;
 }
+
+/* @media {
+	margin: 1em;
+
+} */
 
 label.notationLabel {
 	background-image: linear-gradient(to bottom, #00c0ff 0%, #0085b1 80%);

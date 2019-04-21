@@ -8,10 +8,11 @@ label.keyLabel {
 	background-image: radial-gradient(at 65% 25%, #00c0ff 0%, #0085b1 80%);
 	display: inline-block;
 	cursor: pointer;
-	line-height: 30px;
+	/* line-height: 30px; */
+	line-height: 1.7;
 	color: #1d1d1d;
-	height: calc(2em + 1vw);
-	width: calc(2em + 1vw);
+	height: calc(1.4em + 1vw);
+	width: calc(1.4em + 1vw);
 }
 input:checked + label.keyLabel {
 	background-image: radial-gradient(#00c0ff 0%, #e5dede 92%);

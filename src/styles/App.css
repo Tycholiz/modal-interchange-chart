@@ -1,6 +1,6 @@
 body {
   background-color: #282c34;
-  background-image: linear-gradient(black, #283134, #00b4ff, lightblue);
+  background-image: linear-gradient(black, #283134, #00b4ff, lightblue, #00b4ff, #283134, black);
 }
 
 .App {
@@ -14,7 +14,8 @@ body {
 .App-header {
   color: whitesmoke;
   text-shadow: 6px 4px 4px black;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(.5em + 2vmin);
+  margin-bottom: 1.4em;
 }
 .mainContent {
   display: flex;

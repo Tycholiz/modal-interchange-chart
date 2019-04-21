@@ -8,6 +8,6 @@
 
 @media (min-width: 950px) {
 	.notationContainerWrapper {
-		width: 30vw;
+		width: calc(6em + 20vw);
 	}
 }

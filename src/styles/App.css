@@ -1,12 +1,13 @@
 body {
-  background-image: linear-gradient(#101010, #283134);
+  background-color: #282c34;
+  background-image: linear-gradient(black, #283134, #00b4ff, lightblue);
 }
 
 .App {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   min-height: 100vh;
   text-align: center;
 }
@@ -17,7 +18,7 @@ body {
 }
 .mainContent {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 80vw;
   padding-top: 3vh;
 }

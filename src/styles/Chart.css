@@ -1,15 +1,16 @@
 .chartWrapper {
+	--primary-color: red;
 	position: relative;
-	display: inline;
-}
-
-img {
-	width: 70vw;
-	border: 2px solid dimgrey;
+	display: inline-block;
+	width: 80vw;
+	background-color: pink;
 }
 
 .overlayImage {
 	position: absolute;
-	bottom: 4px;
+	top: 0;
+	bottom: 0;
 	right: 0;
+	left:	0;
+	width: 100%;
 }

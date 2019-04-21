@@ -9,6 +9,7 @@ class Chart extends Component {
 				<img
 					src={require("../assets/images/modal-chart.png")}
 					alt="modal chart"
+					className="overlayImage"
 				/>
 				<img
 					src={require(`../assets/images/overlay-${currentNotation}.png`)}

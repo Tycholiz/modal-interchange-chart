@@ -1,23 +1,13 @@
 .chartWrapper {
-	display: flex;
+	display: relative;
 	flex-direction: column;
 	--primary-color: red;
 }
 
-.row {
-	display: flex;
-	flex-direction: row;
-}
-
-.cell {
-	border: 1px solid black;
-	background-image: linear-gradient(#00faff, #00a8ab);
-}
-
-.cell-half {
-	width: 20px;
-}
-
-.cell-whole {
-	width: 40px;
+.overlayImage {
+	display: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left:	0;
 }

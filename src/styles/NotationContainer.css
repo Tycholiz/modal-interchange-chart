@@ -5,3 +5,9 @@
 	margin-left: 1em;
 	margin-right: 1em;
 }
+
+@media (min-width: 950px) {
+	.notationContainerWrapper {
+		width: 30vw;
+	}
+}

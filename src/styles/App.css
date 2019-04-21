@@ -24,6 +24,13 @@ body {
   width: 100%;
   padding-top: 3vh;
 }
+@media (min-width: 950px) {
+  .mainContent {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
 .selection {
   cursor: pointer;
   font-weight: bold;

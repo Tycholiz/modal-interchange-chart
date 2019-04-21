@@ -4,6 +4,12 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 0.7em;
+}
+@media (min-width: 950px) {
+	.keyContainerWrapper {
+		flex-direction: column;
+	}
 }
 .sharpFlatContainer {
 	display: flex;

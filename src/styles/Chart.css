@@ -6,6 +6,12 @@
 	background-color: pink;
 	align-self: flex-start;
 }
+@media (min-width: 950px) {
+	.chartWrapper {
+		width: 80vw;
+	}
+}
+
 
 .overlayImage {
 	position: absolute;

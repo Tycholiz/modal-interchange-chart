@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5b67765c403660719d793aaafa435257",
-    "url": "/static/media/D-7ths.5b67765c.png"
+    "revision": "5109b91750dfeb79d9802c6661fbc308",
+    "url": "/static/media/D-Triads.5109b917.png"
   },
   {
-    "revision": "5930e5c506b84507e035",
-    "url": "/static/css/main.bed2b53a.chunk.css"
+    "revision": "18481196fb697ddfa15b",
+    "url": "/static/css/main.0fff92b5.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/js/2.e3f396c0.chunk.js"
   },
   {
-    "revision": "91f16570ad7e8eadbd6852fb3faf8c8d",
-    "url": "/static/media/modal-chart.91f16570.png"
+    "revision": "77476e8c84cef1e46799ef8af620a3db",
+    "url": "/static/media/new-overlay.77476e8c.png"
   },
   {
     "revision": "2cc35123b01f167af1c5e9cd6e1a1f36",
@@ -84,12 +84,12 @@ self.__precacheManifest = [
     "url": "/static/media/C-sharp-Triads.605e6cb3.png"
   },
   {
-    "revision": "5930e5c506b84507e035",
-    "url": "/static/js/main.5930e5c5.chunk.js"
+    "revision": "5b67765c403660719d793aaafa435257",
+    "url": "/static/media/D-7ths.5b67765c.png"
   },
   {
-    "revision": "5109b91750dfeb79d9802c6661fbc308",
-    "url": "/static/media/D-Triads.5109b917.png"
+    "revision": "18481196fb697ddfa15b",
+    "url": "/static/js/main.18481196.chunk.js"
   },
   {
     "revision": "88b7aab8904d3601f1197adcfdee4984",
@@ -168,7 +168,11 @@ self.__precacheManifest = [
     "url": "/static/media/chart-stock.0e7db07b.png"
   },
   {
-    "revision": "6266ed548ee08014e7fd7e1b1eb6454a",
+    "revision": "91f16570ad7e8eadbd6852fb3faf8c8d",
+    "url": "/static/media/modal-chart.91f16570.png"
+  },
+  {
+    "revision": "8330ceac2cef85a693243de46bf0af40",
     "url": "/index.html"
   }
 ];

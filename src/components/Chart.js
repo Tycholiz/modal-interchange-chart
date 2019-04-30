@@ -7,7 +7,7 @@ class Chart extends Component {
 		return (
 			<div className="chartWrapper">
 				<img
-					src={require("../assets/images/modal-chart.png")}
+					src={require("../assets/images/new-overlay.png")}
 					alt="modal chart"
 					className="overlayImage"
 				/>

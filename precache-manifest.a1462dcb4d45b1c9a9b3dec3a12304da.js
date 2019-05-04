@@ -172,7 +172,7 @@ self.__precacheManifest = [
     "url": "/static/media/modal-chart.91f16570.png"
   },
   {
-    "revision": "0042b23bf0fd9128d9fdac8689b88bf3",
+    "revision": "668f0ae9dcff2a41345d31ab4c7261c0",
     "url": "/index.html"
   }
 ];
